@@ -7,7 +7,7 @@
 		function(stateProvider,locationProvider,urlRouterProvider) {
 			stateProvider.state('search', {
 				url: '/search',
-				templateUrl: 'view/image-list.html',
+				templateUrl: 'view/search-list.html',
 				controller: 'SearchController'
 			});
 			urlRouterProvider.otherwise('/');
@@ -16,8 +16,10 @@
 	/*end router*/
 	
 	/*start main controller*/
-	app.controller('MainController', ['$scope', function(scope){
-		
+	app.controller('MainController', ['$scope','$state', function(scope,state){
+		scope.search = function(){
+			state.go('search');
+		}
 	}]);
 	/*end main controller*/
 }());
