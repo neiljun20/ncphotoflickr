@@ -18,10 +18,10 @@
 </head>
 <body ng-controller="MainController">
 	<header>
-		<form>
+		<form ng-submit="search()">
 			<h1>NC Photo Flickr</h1>
 			<div class="holder">
-				<input type="text" class="search" placeholder="Search">
+				<input type="text" class="search" placeholder="Search" ng-model="searchTerm">
 				<button class="search-btn" ng-click="search()">Search</button>
 			</div>
 		</form>

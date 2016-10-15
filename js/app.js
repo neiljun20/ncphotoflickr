@@ -10,7 +10,7 @@
 				templateUrl: 'view/home.html',
 				controller: 'HomeController'
 			}).state('search', {
-				url: '/search',
+				url: '/search/:q',
 				templateUrl: 'view/search-list.html',
 				controller: 'SearchController'
 			});
@@ -22,7 +22,7 @@
 	/*start main controller*/
 	app.controller('MainController', ['$scope','$state', function(scope,state){
 		scope.search = function(){
-			state.go('search');
+			state.go('search',{q: scope.searchTerm});
 		}
 	}]);
 	/*end main controller*/
