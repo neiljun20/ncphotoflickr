@@ -28,7 +28,18 @@ header h1{
 	border-bottom:2px solid #fff;
 	color:#fff;
 	outline: 0;
-	font-size: 20px;
+	font-size: 30px;
 	padding: 5px 0;
+	width: 400px;
+}
+.search-btn{
+	background:url(../img/search-icon.png) no-repeat;
+	background-size:100%;
+	text-indent: -9999px;
+	width:35px;
+	height:35px;
+	border:0;
+	outline: 0;
+	cursor:pointer;
 }
 /* end header */
