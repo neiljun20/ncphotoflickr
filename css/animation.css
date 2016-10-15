@@ -6,7 +6,20 @@
 	}
 }
 
+@keyframes showHead{
+	from{
+		height:80px;
+	} to{
+		height:100%;
+	}
+}
+
 .reduceHead{
 	height:80px;
-	animation: reduceHead 1.5s ease-in 1;
+	animation: reduceHead 1s ease-out 1;
+}
+
+.showHead{
+	height:100%;
+	animation: showHead 1s ease-out 1;
 }
