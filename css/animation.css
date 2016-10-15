@@ -1,0 +1,12 @@
+@keyframes reduceHead{
+	from{
+		height:100%;
+	} to{
+		height:80px;
+	}
+}
+
+.reduceHead{
+	height:80px;
+	animation: reduceHead 1.5s ease-in 1;
+}
