@@ -1,0 +1,25 @@
+/* start body */
+html, body{
+	padding:0;
+	margin:0;
+	height:100%;
+}
+*{
+	font-family: Sans-serif;
+}
+/* end body */
+
+/* start header */
+header{
+	background:url(../img/screen.png), url(../img/header-bg.gif) gray center bottom;
+	background-size:auto, cover;
+	overflow:hidden;
+	color:#fff;
+	height:100%;
+	text-align:center;
+}
+header h1{
+	font-weight:normal;
+	font-size:50px;
+}
+/* end header */
