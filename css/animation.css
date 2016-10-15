@@ -1,3 +1,4 @@
+/* start reduce header */
 @keyframes reduceHead{
 	from{
 		height:100%;
@@ -5,7 +6,25 @@
 		height:80px;
 	}
 }
+@keyframes reduceFont{
+	from{
+		font-size:80px;
+	} to{
+		font-size:20px;
+	}
+}
+.reduceHead{
+	height:80px;
+	animation: reduceHead 1s ease-out 1;
+}
+.reduceHead h1{
+	float:left;
+	font-size:20px;
+	animation: reduceFont 1s ease-out 1;
+}
+/* end reduce header */
 
+/* start show header */
 @keyframes showHead{
 	from{
 		height:80px;
@@ -13,13 +32,20 @@
 		height:100%;
 	}
 }
-
-.reduceHead{
-	height:80px;
-	animation: reduceHead 1s ease-out 1;
+@keyframes originalFont{
+	from{
+		font-size:20px;
+	} to{
+		font-size:80px;
+	}
 }
-
 .showHead{
 	height:100%;
 	animation: showHead 1s ease-out 1;
 }
+.showHead h1{
+	float:none;
+	font-size:80px;
+	animation: originalFont 1s ease-out 1;
+}
+/* end show header */

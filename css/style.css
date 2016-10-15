@@ -30,7 +30,7 @@ header h1{
 header form{
 	top: 35%;
 	width:100%;
-	position: absolute;
+	position: relative;
 	line-height: 500%;
 }
 .search{
