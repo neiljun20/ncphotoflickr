@@ -1,0 +1,17 @@
+{
+  "name": "ncphotoflickr",
+  "authors": [
+    "Neiljun Cataag <neiljuncataag@gmail.com>"
+  ],
+  "description": "this is an assignment for AsiaInspection",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "nameless-gorge-57763.herokuapp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
