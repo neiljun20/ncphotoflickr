@@ -45,9 +45,11 @@
 	app.controller('SearchController', ['$scope','$animate','Flickr', function(scope,animate,Flickr){
 		
 		/*start animation of head*/
-		var header = angular.element(document.querySelector('header'));
+		var header = angular.element(document.querySelector('header')),
+			container = angular.element(document.querySelector('#container'));
 		animate.removeClass(header, 'showHead');
 		animate.addClass(header, 'reduceHead');
+		animate.addClass(container, 'showRecords');
 		/*animation of head*/
 		
 		scope.flickr = new Flickr();
