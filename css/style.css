@@ -21,6 +21,10 @@ header{
 	position:fixed;
 	top:0;
 	left:0;
+	box-shadow:
+		0px 2px 6px 1px rgba(0, 0, 0, 0.2),
+		0px 2px 2px 1px rgba(0, 0, 0, 0.14),
+		0px 4px 2px 0px rgba(0, 0, 0, 0.12);
 }
 header h1{
 	font-weight:normal;
@@ -60,6 +64,8 @@ header form{
 	margin-top:65px;
 	padding:10px 0;
 	text-align:center;
+	background:#f0f0f0;
+	min-height:100%;
 }
 .card{
 	margin:5px;
@@ -71,6 +77,7 @@ header form{
 		0px 1px 3px 0px rgba(0, 0, 0, 0.2),
 		0px 1px 1px 0px rgba(0, 0, 0, 0.14),
 		0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+	background:#fff;
 }
 .card p{
 	margin:5px 0 0 0;
