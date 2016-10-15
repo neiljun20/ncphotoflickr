@@ -1,0 +1,7 @@
+<section infinite-scroll='flickr.nextPage()' infinite-scroll-disabled='flickr.busy' infinite-scroll-distance='1'>
+	<div class="card" ng-repeat="picture in flickr.items track by $index">
+		<img ng-src="https://farm{{picture.farm}}.staticflickr.com/{{picture.server}}/{{picture.id}}_{{picture.secret}}_m.jpg" alt="" class="md-card-image" />
+		<p>{{picture.title}}</p>
+	</div>
+	<div ng-show='flickr.busy'>Loading..</div>
+</section>
