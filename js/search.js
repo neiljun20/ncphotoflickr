@@ -27,7 +27,7 @@
 			}).success(function(response){
 				if(it.page <= response.photos.pages){
 					var result = response.photos.photo;
-					for (var i = 0; i <= result.length; i++) {
+					for (var i = 0; i <= result.length-1; i++) {
 						it.items.push(result[i]);
 					}
 					it.page++;
