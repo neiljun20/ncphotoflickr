@@ -3,7 +3,7 @@
 	from{
 		height:100%;
 	} to{
-		height:80px;
+		height:65px;
 	}
 }
 @keyframes reduceFont{
@@ -13,25 +13,42 @@
 		font-size:20px;
 	}
 }
+@keyframes reduceSearch{
+	from{
+		font-size:30px;
+		width:400px;
+	} to{
+		font-size:15px;
+		width:250px;
+	}
+}
 .reduceHead{
-	height:80px;
+	height:65px;
 	animation: reduceHead 1s ease-out 1;
 }
 .reduceHead form{
 	top:auto;
-	bottom:0;
+	bottom:10px;
+	line-height:normal;
 }
 .reduceHead h1{
+	margin-left: 10px;
 	float:left;
 	font-size:20px;
 	animation: reduceFont 1s ease-out 1;
+}
+.reduceHead .search{
+	font-size: 15px;
+	float:right;
+	width:250px;
+	animation: reduceSearch 1s ease-out 1;
 }
 /* end reduce header */
 
 /* start show header */
 @keyframes showHead{
 	from{
-		height:80px;
+		height:65px;
 	} to{
 		height:100%;
 	}
@@ -43,13 +60,22 @@
 		font-size:80px;
 	}
 }
+@keyframes originalSearch{
+	from{
+		font-size:15px;
+		width:250px;
+	} to{
+		font-size:30px;
+		width:400px;
+	}
+}
 .showHead{
-	height:100%;
 	animation: showHead 1s ease-out 1;
 }
 .showHead h1{
-	float:none;
-	font-size:80px;
 	animation: originalFont 1s ease-out 1;
+}
+.showHead .search{
+	animation: originalSearch 1s ease-out 1;
 }
 /* end show header */
