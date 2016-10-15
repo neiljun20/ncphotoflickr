@@ -22,6 +22,15 @@
 		width:250px;
 	}
 }
+@keyframes reduceSearchBtn{
+	from{
+		width: 35px;
+		height: 35px;
+	} to{
+		width: 20px;
+		height: 20px;
+	}
+}
 .reduceHead{
 	height:65px;
 	animation: reduceHead 1s ease-out 1;
@@ -37,11 +46,19 @@
 	font-size:20px;
 	animation: reduceFont 1s ease-out 1;
 }
+.reduceHead .holder{
+	float:right;
+	margin-right:10px;
+}
 .reduceHead .search{
 	font-size: 15px;
-	float:right;
 	width:250px;
 	animation: reduceSearch 1s ease-out 1;
+}
+.reduceHead .search-btn{
+	width: 20px;
+	height: 20px;
+	animation: reduceSearchBtn 1s ease-out 1;
 }
 /* end reduce header */
 
