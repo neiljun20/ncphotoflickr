@@ -17,6 +17,10 @@
 	height:80px;
 	animation: reduceHead 1s ease-out 1;
 }
+.reduceHead form{
+	top:auto;
+	bottom:0;
+}
 .reduceHead h1{
 	float:left;
 	font-size:20px;
