@@ -16,11 +16,22 @@ header{
 	overflow:hidden;
 	color:#fff;
 	height:100%;
+	width:100%;
 	text-align:center;
+	position:fixed;
+	top:0;
+	left:0;
 }
 header h1{
 	font-weight:normal;
 	font-size:80px;
+	margin: 0;
+}
+header form{
+	top: 35%;
+	width:100%;
+	position: absolute;
+	line-height: 500%;
 }
 .search{
 	background:none;
