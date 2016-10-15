@@ -54,3 +54,10 @@ header form{
 	cursor:pointer;
 }
 /* end header */
+
+/* start search list */
+#container{
+	margin-top:65px;
+	padding:10px;
+}
+/* end search list */
