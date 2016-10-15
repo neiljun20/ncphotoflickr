@@ -3,5 +3,5 @@
 		<img ng-src="https://farm{{picture.farm}}.staticflickr.com/{{picture.server}}/{{picture.id}}_{{picture.secret}}_m.jpg" alt="" class="md-card-image" />
 		<p>{{picture.title}}</p>
 	</div>
-	<div ng-show='flickr.busy'>Loading..</div>
+	<img ng-show='flickr.busy' src="img/loader.gif" alt="Loading">
 </section>
