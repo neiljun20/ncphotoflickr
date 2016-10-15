@@ -58,6 +58,27 @@ header form{
 /* start search list */
 #container{
 	margin-top:65px;
-	padding:10px;
+	padding:10px 0;
+	text-align:center;
+}
+.card{
+	margin:5px;
+	padding:5px;
+	border-radius: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow:
+		0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.card p{
+	margin:5px 0 0 0;
+	text-align: left;
+	font-size: 10px;
+	width: 150px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /* end search list */
