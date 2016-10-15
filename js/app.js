@@ -5,7 +5,11 @@
 	/*start router*/
 	app.config(['$stateProvider','$locationProvider','$urlRouterProvider',
 		function(stateProvider,locationProvider,urlRouterProvider) {
-			stateProvider.state('search', {
+			stateProvider.state('home', {
+				url: '/',
+				templateUrl: 'view/home.html',
+				controller: 'HomeController'
+			}).state('search', {
 				url: '/search',
 				templateUrl: 'view/search-list.html',
 				controller: 'SearchController'
