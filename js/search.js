@@ -25,11 +25,13 @@
 					page: it.page
 				}
 			}).success(function(response){
-				var result = response.photos.photo;
-				for (var i = 0; i <= result.length; i++) {
-					it.items.push(result[i]);
+				if(it.page <= response.photos.pages){
+					var result = response.photos.photo;
+					for (var i = 0; i <= result.length; i++) {
+						it.items.push(result[i]);
+					}
+					it.page++;
 				}
-				it.page++;
 				it.busy = false;
 			}).error(function(error){
 				console.log(error);
