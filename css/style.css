@@ -113,6 +113,7 @@ header form{
 .reduceHead{
 	height:65px;
 	animation: reduceHead 1s ease-out 1;
+	-webkit-animation: reduceHead 1s ease-out 1;
 }
 .reduceHead form{
 	top:auto;
@@ -124,6 +125,7 @@ header form{
 	float:left;
 	font-size:20px;
 	animation: reduceFont 1s ease-out 1;
+	-webkit-animation: reduceFont 1s ease-out 1;
 }
 .reduceHead .holder{
 	float:right;
@@ -132,11 +134,13 @@ header form{
 .reduceHead .search{
 	width:250px;
 	animation: reduceSearch 1s ease-out 1;
+	-webkit-animation: reduceSearch 1s ease-out 1;
 }
 .reduceHead .search-btn{
 	width: 20px;
 	height: 20px;
 	animation: reduceSearchBtn 1s ease-out 1;
+	-webkit-animation: reduceSearchBtn 1s ease-out 1;
 }
 .reduceHead .search, .reduceHead .searchBy{
 	font-size:15px;
@@ -144,20 +148,25 @@ header form{
 .reduceHead .searchBy{
 	padding:0 0 4px 0;
 	animation: reduceSearchBy 1s ease-out 1;
+	-webkit-animation: reduceSearchBy 1s ease-out 1;
 }
 /* end search page */
 
 /* start home page */
 .showHead{
 	animation: showHead 1s ease-out 1;
+	-webkit-animation: showHead 1s ease-out 1;
 }
 .showHead h1{
 	animation: originalFont 1s ease-out 1;
+	-webkit-animation: originalFont 1s ease-out 1;
 }
 .showHead .search{
 	animation: originalSearch 1s ease-out 1;
+	-webkit-animation: originalSearch 1s ease-out 1;
 }
 .showHead .searchBy{
 	animation: originalSearchBy 1s ease-out 1;
+	-webkit-animation: originalSearchBy 1s ease-out 1;
 }
 /* end home page */

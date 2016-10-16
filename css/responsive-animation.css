@@ -34,4 +34,40 @@
 		width:60%;
 	}
 }
+
+@-webkit-frames RSPreduceFont{
+	from{
+		font-size:42px;
+	} to{
+		font-size:20px;
+	}
+}
+@-webkit-frames RSPreduceSearch{
+	from{
+		font-size:30px;
+		width:60%;
+	} to{
+		font-size:15px;
+		width:70%;
+	}
+}
+/* end reduce header */
+
+/* start show header */
+@-webkit-frames RSPoriginalFont{
+	from{
+		font-size:20px;
+	} to{
+		font-size:42px;
+	}
+}
+@-webkit-frames RSPoriginalSearch{
+	from{
+		font-size:15px;
+		width:70%;
+	} to{
+		font-size:30px;
+		width:60%;
+	}
+}
 /* end show header */

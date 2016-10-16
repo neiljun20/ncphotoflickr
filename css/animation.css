@@ -71,4 +71,77 @@
 		font-size:30px;
 	}
 }
+
+@-webkit-frames reduceHead{
+	from{
+		height:100%;
+	} to{
+		height:65px;
+	}
+}
+@-webkit-frames reduceFont{
+	from{
+		font-size:80px;
+	} to{
+		font-size:20px;
+	}
+}
+@-webkit-frames reduceSearch{
+	from{
+		font-size:30px;
+		width:400px;
+	} to{
+		font-size:15px;
+		width:250px;
+	}
+}
+@-webkit-frames reduceSearchBy{
+	from{
+		font-size:30px;
+	} to{
+		font-size:15px;
+	}
+}
+@-webkit-frames reduceSearchBtn{
+	from{
+		width: 35px;
+		height: 35px;
+	} to{
+		width: 20px;
+		height: 20px;
+	}
+}
+/* end reduce header */
+
+/* start show header */
+@-webkit-frames showHead{
+	from{
+		height:65px;
+	} to{
+		height:100%;
+	}
+}
+@-webkit-frames originalFont{
+	from{
+		font-size:20px;
+	} to{
+		font-size:80px;
+	}
+}
+@-webkit-frames originalSearch{
+	from{
+		font-size:15px;
+		width:250px;
+	} to{
+		font-size:30px;
+		width:400px;
+	}
+}
+@-webkit-frames originalSearchBy{
+	from{
+		font-size:15px;
+	} to{
+		font-size:30px;
+	}
+}
 /* end show header */
