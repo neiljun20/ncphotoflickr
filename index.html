@@ -28,16 +28,11 @@
 					<option value="all">All</option>
 					<option value="tag">Tag</option>
 				</select>
-				<input type="text" class="search" placeholder="Search" ng-model="search.term">
+				<input type="text" class="search" placeholder="Search" ng-keyup="showPredictedText()" ng-blur="removePredictedText()" ng-model="search.term">
 				<button class="search-btn" ng-click="search()">Search</button>
 			</div>
 		</form>
 	</header>
-	<!-- start text prediction -->
-	<div id="predictedText">
-		<label>Hello</label>
-	</div>
-	<!-- end text prediction -->
 	<div ui-view id="container"></div>
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/home.js"></script>

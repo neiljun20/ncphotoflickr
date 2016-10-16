@@ -61,7 +61,7 @@ header form{
 	color:#a9a9a9;
 	cursor:pointer;
 }
-.search, #predictedText{
+.search{
 	width: 400px;
 }
 .search-btn{
@@ -80,7 +80,16 @@ header form{
 #predictedText{
 	position:absolute;
 	z-index:1;
-	color:#fff;
+	color:#000;
+	background:#fff;
+	box-shadow:
+		0px 2px 6px 1px rgba(0, 0, 0, 0.2),
+		0px 2px 2px 1px rgba(0, 0, 0, 0.14),
+		0px 4px 2px 0px rgba(0, 0, 0, 0.12);
+}
+#predictedText label{
+	padding:5px;
+	display:block;
 }
 /* end header */
 
