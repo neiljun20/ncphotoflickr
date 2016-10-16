@@ -59,6 +59,7 @@ header form{
 .searchBy{
 	background:none;
 	color:#a9a9a9;
+	cursor:pointer;
 }
 .search{
 	width: 400px;
