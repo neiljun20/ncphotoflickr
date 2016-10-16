@@ -15,6 +15,7 @@
 				if (it.busy) return;
 				it.busy = true;
 				http({
+					cache: true,
 					method: 'GET',
 					url: 'https://api.flickr.com/services/rest',
 					params: {
