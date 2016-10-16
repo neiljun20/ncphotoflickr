@@ -54,7 +54,11 @@
 					var result = response.photos.photo,
 						limit = response.photos.total <= 3 ? response.photos.total : 3 ;
 					for (var i = 0; i <= limit; i++) {
-						list += '<label ng-click="clickPredictedText($event)">'+result[i].title+'</label>';
+						list += '<p><label ng-click="clickPredictedText($event)">';
+						list += result[i].title;
+						list += '</label>';
+						list += '<img src="https://farm'+result[i].farm+'.staticflickr.com/'+result[i].server+'/'+result[i].id+'_'+result[i].secret+'_s.jpg">';
+						list += '</p>';
 					}
 					$('div#predictedText').html(compile(list)(scope));
 				});

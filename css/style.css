@@ -87,12 +87,25 @@ header form{
 		0px 2px 2px 1px rgba(0, 0, 0, 0.14),
 		0px 4px 2px 0px rgba(0, 0, 0, 0.12);
 }
-#predictedText label{
+#predictedText p{
+	margin:0;
 	padding:5px;
 	display:block;
+	overflow:hidden;
+	cursor:pointer;
+}
+#predictedText label{
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	width:80%;
+	display:inherit;
+	float:left;
+	cursor:pointer;
+}
+#predictedText img{
+	height:20px;
+	float:right;
 }
 /* end header */
 
