@@ -62,6 +62,8 @@
 					}
 					$('div#predictedText').html(compile(list)(scope));
 				});
+			} else{
+				scope.removePredictedText();
 			}
 			
 			$('#predictedText').css({
