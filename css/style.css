@@ -47,7 +47,7 @@ header form{
 	position: absolute;
 	line-height: 500%;
 }
-.search{
+.search, .searchBy{
 	background:none;
 	border:0;
 	border-bottom:3px solid #fff;
@@ -55,6 +55,12 @@ header form{
 	outline: 0;
 	font-size: 30px;
 	padding: 5px 0;
+}
+.searchBy{
+	background:none;
+	color:#a9a9a9;
+}
+.search{
 	width: 400px;
 }
 .search-btn{
