@@ -7,6 +7,9 @@ html, body{
 *{
 	font-family: Sans-serif;
 }
+img{
+	max-width:100%;
+}
 /* end body */
 
 /* start header */
