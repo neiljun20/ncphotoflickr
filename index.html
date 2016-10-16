@@ -24,9 +24,9 @@
 		<form ng-submit="search()">
 			<h1><a ui-sref="home">NC Photo Flickr</a></h1>
 			<div class="holder">
-				<select class="searchBy">
-					<option>All</option>
-					<option>Tag</option>
+				<select class="searchBy" ng-init="searchBy = searchBy || 'All'" ng-model="searchBy">
+					<option value="All">All</option>
+					<option valut="Tag">Tag</option>
 				</select>
 				<input type="text" class="search" placeholder="Search" ng-model="searchTerm">
 				<button class="search-btn" ng-click="search()">Search</button>
