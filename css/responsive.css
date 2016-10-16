@@ -1,8 +1,8 @@
 @media (max-width:580px){
 	/* start home page */
 	header form{
-		top:0;
-		height:100%;
+		top:30%;
+		height:135px;
 	}
 	header h1{
 		font-size: 42px;
@@ -14,9 +14,14 @@
 	}
 	.showHead h1{
 		animation: RSPoriginalFont 1s ease-out 1;
+		-webkit-animation: RSPoriginalFont 1s ease-out 1;
 	}
 	.showHead .search{
 		animation: RSPoriginalSearch 1s ease-out 1;
+		-webkit-animation: RSPoriginalSearch 1s ease-out 1;
+	}
+	.search{
+		width:60%;
 	}
 	/* end home page */
 	
@@ -25,18 +30,13 @@
 		height: 48px;
 	}
 	.reduceHead .search{
-		width:85%;
-	}
-	.reduceHead .search{
+		width:70%;
 		animation: RSPreduceSearch 1s ease-out 1;
+		-webkit-animation: RSPreduceSearch 1s ease-out 1;
 	}
 	.reduceHead h1{
 		animation: RSPreduceFont 1s ease-out 1;
+		-webkit-animation: RSPreduceFont 1s ease-out 1;
 	}
 	/* end search page */
-}
-@media (max-width:460px){
-	.search{
-		width:80%;
-	}
 }

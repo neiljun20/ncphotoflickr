@@ -10,12 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="css/animation.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive-animation.css">
+	<link rel="stylesheet" type="text/css" href="css/ng-animate.css">
 	<!-- start libraries -->
-	<script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="lib/angular/angular.js"></script>
-	<script type="text/javascript" src="lib/angular-animate/angular-animate.js"></script>
-	<script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.js"></script>
-	<script type="text/javascript" src="lib/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+	<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-animate/angular-animate.min.js"></script>
+	<script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="lib/ngInfiniteScroll/build/ng-infinite-scroll.min.js"></script>
 	<!-- end libraries -->
 </head>
 <body ng-controller="MainController">
@@ -23,7 +24,11 @@
 		<form ng-submit="search()">
 			<h1><a ui-sref="home">NC Photo Flickr</a></h1>
 			<div class="holder">
-				<input type="text" class="search" placeholder="Search" ng-model="searchTerm">
+				<select class="searchBy" ng-change="search()" ng-init="search.by = search.by || 'all'" ng-model="search.by">
+					<option value="all">All</option>
+					<option value="tag">Tag</option>
+				</select>
+				<input type="text" class="search" placeholder="Search" ng-keyup="showPredictedText()" ng-model="search.term">
 				<button class="search-btn" ng-click="search()">Search</button>
 			</div>
 		</form>
