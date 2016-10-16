@@ -22,6 +22,13 @@
 		width:250px;
 	}
 }
+@keyframes reduceSearchBy{
+	from{
+		font-size:30px;
+	} to{
+		font-size:15px;
+	}
+}
 @keyframes reduceSearchBtn{
 	from{
 		width: 35px;
@@ -55,6 +62,13 @@
 	} to{
 		font-size:30px;
 		width:400px;
+	}
+}
+@keyframes originalSearchBy{
+	from{
+		font-size:15px;
+	} to{
+		font-size:30px;
 	}
 }
 /* end show header */

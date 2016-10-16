@@ -29,8 +29,6 @@
 	}
 	.reduceHead .search{
 		width:85%;
-	}
-	.reduceHead .search{
 		animation: RSPreduceSearch 1s ease-out 1;
 	}
 	.reduceHead h1{

@@ -130,7 +130,6 @@ header form{
 	margin-right:10px;
 }
 .reduceHead .search{
-	font-size: 15px;
 	width:250px;
 	animation: reduceSearch 1s ease-out 1;
 }
@@ -138,6 +137,13 @@ header form{
 	width: 20px;
 	height: 20px;
 	animation: reduceSearchBtn 1s ease-out 1;
+}
+.reduceHead .search, .reduceHead .searchBy{
+	font-size:15px;
+}
+.reduceHead .searchBy{
+	padding:0 0 4px 0;
+	animation: reduceSearchBy 1s ease-out 1;
 }
 /* end search page */
 
@@ -150,5 +156,8 @@ header form{
 }
 .showHead .search{
 	animation: originalSearch 1s ease-out 1;
+}
+.showHead .searchBy{
+	animation: originalSearchBy 1s ease-out 1;
 }
 /* end home page */
