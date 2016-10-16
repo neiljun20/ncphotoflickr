@@ -28,7 +28,7 @@
 					<option value="all">All</option>
 					<option value="tag">Tag</option>
 				</select>
-				<input type="text" class="search" placeholder="Search" ng-keydown="showPredictedText()" ng-model="search.term">
+				<input type="text" class="search" placeholder="Search" ng-keyup="showPredictedText()" ng-model="search.term">
 				<button class="search-btn" ng-click="search()">Search</button>
 			</div>
 		</form>
