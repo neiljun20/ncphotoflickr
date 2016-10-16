@@ -25,6 +25,7 @@
 			if(scope.search.term){
 				state.go('search',{by:scope.search.by, q: scope.search.term});	//this will go to search and add a paramter
 			}
+			scope.removePredictedText();
 		}
 		
 		/*start predection text layout*/
