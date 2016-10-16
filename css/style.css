@@ -10,6 +10,9 @@ html, body{
 img{
 	max-width:100%;
 }
+body{
+	background:#f0f0f0;
+}
 /* end body */
 
 /* start header */
@@ -71,8 +74,6 @@ header form{
 	margin-top:65px;
 	padding:10px 0;
 	text-align:center;
-	background:#f0f0f0;
-	min-height:100%;
 }
 .card{
 	margin:5px;
