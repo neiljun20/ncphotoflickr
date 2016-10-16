@@ -95,6 +95,10 @@ header form{
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+#loader{
+	display:block;
+	margin:auto;
+}
 /* end search list */
 
 /* start search page */
