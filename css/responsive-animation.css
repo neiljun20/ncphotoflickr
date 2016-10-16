@@ -1,0 +1,18 @@
+@media (max-width:460px){
+	/* start reduce header */
+	@keyframes RSPreduceSearch{
+		from{
+			font-size:30px;
+			width:80%;
+		} to{
+			font-size:15px;
+			width:85%;
+		}
+	}
+	.reduceHead .search{
+		font-size: 15px;
+		width:85%;
+		animation: RSPreduceSearch 1s ease-out 1;
+	}
+	/* end reduce header */
+}
