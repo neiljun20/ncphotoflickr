@@ -90,6 +90,9 @@ header form{
 #predictedText label{
 	padding:5px;
 	display:block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /* end header */
 
