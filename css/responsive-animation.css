@@ -23,4 +23,29 @@
 		animation: RSPreduceFont 1s ease-out 1;
 	}
 	/* end reduce header */
+	
+	/* start show header */
+	@keyframes RSPoriginalFont{
+		from{
+			font-size:20px;
+		} to{
+			font-size:42px;
+		}
+	}
+	@keyframes RSPoriginalSearch{
+		from{
+			font-size:15px;
+			width:80%;
+		} to{
+			font-size:30px;
+			width:85%;
+		}
+	}
+	.showHead h1{
+		animation: RSPoriginalFont 1s ease-out 1;
+	}
+	.showHead .search{
+		animation: RSPoriginalSearch 1s ease-out 1;
+	}
+	/* end show header */
 }
