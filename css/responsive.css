@@ -18,6 +18,9 @@
 	.showHead .search{
 		animation: RSPoriginalSearch 1s ease-out 1;
 	}
+	.search{
+		width:60%;
+	}
 	/* end home page */
 	
 	/* start search page */
@@ -34,9 +37,4 @@
 		animation: RSPreduceFont 1s ease-out 1;
 	}
 	/* end search page */
-}
-@media (max-width:460px){
-	.search{
-		width:80%;
-	}
 }
