@@ -26,6 +26,13 @@
 				state.go('search',{by:scope.search.by, q: scope.search.term});	//this will go to search and add a paramter
 			}
 		}
+		/*start predection text layout*/
+		var searchBar = $('.search').offset(),
+			predictedText = $('#predictedText').css({
+				top: searchBar.top,
+				left: searchBar.left
+			});
+		/*end predection text layout*/
 	}]);
 	/*end main controller*/
 }());

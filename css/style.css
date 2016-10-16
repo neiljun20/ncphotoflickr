@@ -61,7 +61,7 @@ header form{
 	color:#a9a9a9;
 	cursor:pointer;
 }
-.search{
+.search, #predictedText{
 	width: 400px;
 }
 .search-btn{
@@ -73,6 +73,14 @@ header form{
 	border:0;
 	outline: 0;
 	cursor:pointer;
+}
+.holder{
+	position:relative;
+}
+#predictedText{
+	position:absolute;
+	z-index:1;
+	color:#fff;
 }
 /* end header */
 
