@@ -1,4 +1,5 @@
 @media (max-width:580px){
+	/* start home page */
 	header form{
 		top:0;
 		height:100%;
@@ -11,6 +12,16 @@
 		bottom:0;
 		width:100%;
 	}
+	/* end home page */
+	
+	/* start search page */
+	.reduceHead form{
+		height: 48px;
+	}
+	.reduceHead .search{
+		width:85%;
+	}
+	/* end search page */
 }
 @media (max-width:460px){
 	.search{
