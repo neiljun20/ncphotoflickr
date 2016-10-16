@@ -12,5 +12,7 @@
 			animate.removeClass(container, 'showRecord');
 		}
 		/*end animation*/
+		
+		$('#predictedText').remove();
 	}]);
 }());
