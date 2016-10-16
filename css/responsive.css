@@ -12,6 +12,12 @@
 		bottom:0;
 		width:100%;
 	}
+	.showHead h1{
+		animation: RSPoriginalFont 1s ease-out 1;
+	}
+	.showHead .search{
+		animation: RSPoriginalSearch 1s ease-out 1;
+	}
 	/* end home page */
 	
 	/* start search page */
@@ -20,6 +26,12 @@
 	}
 	.reduceHead .search{
 		width:85%;
+	}
+	.reduceHead .search{
+		animation: RSPreduceSearch 1s ease-out 1;
+	}
+	.reduceHead h1{
+		animation: RSPreduceFont 1s ease-out 1;
 	}
 	/* end search page */
 }
