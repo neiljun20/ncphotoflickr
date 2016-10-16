@@ -22,8 +22,8 @@
 	/*start main controller*/
 	app.controller('MainController', ['$scope','$state', function(scope,state){
 		scope.search = function(){
-			if(scope.searchTerm){
-				state.go('search',{by:scope.searchBy, q: scope.searchTerm});	//this will go to search and add a paramter
+			if(scope.search.term){
+				state.go('search',{by:scope.search.by, q: scope.search.term});	//this will go to search and add a paramter
 			}
 		}
 	}]);
