@@ -16,7 +16,7 @@ body{
 
 /* start header */
 header{
-	background:url(../img/screen.png), url(../img/header-bg.gif) gray center bottom;
+	background:url(../img/screen.png) left top, url(../img/header-bg.gif) gray center bottom;
 	background-size:auto, cover;
 	overflow:hidden;
 	color:#fff;
