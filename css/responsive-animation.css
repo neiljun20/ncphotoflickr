@@ -1,10 +1,10 @@
 @media (max-width:580px){
 	/* start reduce header */
-	@keyframes reduceFont{
+	@keyframes RSPreduceFont{
 		from{
-			font-size:80px;
+			font-size:42px;
 		} to{
-			font-size:20px;
+			font-size:20px;s
 		}
 	}
 	@keyframes RSPreduceSearch{
@@ -17,9 +17,10 @@
 		}
 	}
 	.reduceHead .search{
-		font-size: 15px;
-		width:85%;
 		animation: RSPreduceSearch 1s ease-out 1;
+	}
+	.reduceHead h1{
+		animation: RSPreduceFont 1s ease-out 1;
 	}
 	/* end reduce header */
 }
