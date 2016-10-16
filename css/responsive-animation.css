@@ -9,10 +9,10 @@
 @keyframes RSPreduceSearch{
 	from{
 		font-size:30px;
-		width:80%;
+		width:60%;
 	} to{
 		font-size:15px;
-		width:85%;
+		width:70%;
 	}
 }
 /* end reduce header */
@@ -28,10 +28,10 @@
 @keyframes RSPoriginalSearch{
 	from{
 		font-size:15px;
-		width:80%;
+		width:70%;
 	} to{
 		font-size:30px;
-		width:85%;
+		width:60%;
 	}
 }
 /* end show header */
