@@ -78,7 +78,7 @@ header form{
 	position:relative;
 }
 #predictedText{
-	position:absolute;
+	position:fixed;
 	z-index:1;
 	color:#000;
 	background:#fff;

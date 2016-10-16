@@ -54,7 +54,7 @@
 					var result = response.photos.photo,
 						limit = response.photos.total <= 3 ? response.photos.total : 3 ;
 					for (var i = 0; i <= limit; i++) {
-						list += '<label>'+result[i].title+'</label>';
+						list += '<label ng-click="clickPredictedText($event)">'+result[i].title+'</label>';
 					}
 					$('div#predictedText').html(compile(list)(scope));
 				});
@@ -65,6 +65,12 @@
 				left: searchBar.left,
 				width: searchBarWidth
 			});
+		}
+		
+		scope.clickPredictedText = function(e){
+			var text = e.target.innerHTML;
+			$('.search').val(text);
+			scope.search.term = text;
 		}
 		
 		scope.removePredictedText = function(){
