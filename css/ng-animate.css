@@ -7,15 +7,15 @@
 	transition:all ease-out 0.5s;
 }
  
-.card.ng-leave.card.ng-leave-active, .card.ng-move,
+.card.ng-leave.ng-leave-active, .card.ng-move,
 .card.ng-enter {
 	opacity:0;
 	margin-left:25px;
 	margin-top:25px;
 }
  
-.card.ng-leave, .card.ng-move.card.ng-move-active,
-.card.ng-enter.card.ng-enter-active {
+.card.ng-leave, .card.ng-move.ng-move-active,
+.card.ng-enter.ng-enter-active {
 	opacity:1;
 	margin-left:5px;
 	margin-top:5px;
